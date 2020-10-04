@@ -1,7 +1,7 @@
 /*
  ********************************************************************
-  ESP32_PWM_Generator_Arduino
-  Implement PWM generator for Espressif Systems ESP32 boards by Arduino framework  
+  ESP8266 PWM Generator Arduino
+  Implement PWM generator for Espressif Systems ESP8266 boards by Arduino framework  
 
   Github: https://github.com/walidamriou/ESP32_PWM_Generator_Arduino
   Copyright © 2020 Walid Amriou
