@@ -14,16 +14,12 @@
 
 uint8_t LEDpin = 5; //5
 
-/* By default PWM frequency is 1000Hz and we are using same 
-   for this application hence no need to set */
-
 void setup(){
   Serial.begin(115200);
-  analogWriteFreq(1);
-  //analogWriteRange(255);
+  analogWriteFreq(100);
+  analogWriteRange(255);
 }
 
 void loop(){
-  analogWrite(LEDpin, 512);  /* set initial 50% duty cycle */
-
+  analogWrite(LEDpin, 25);  /* set initial 50% duty cycle */
 }
