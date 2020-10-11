@@ -21,5 +21,5 @@ void setup(){
 }
 
 void loop(){
-  analogWrite(LEDpin, 25);  /* set initial 50% duty cycle */
+  analogWrite(LEDpin, 25);  /* set initial 10% duty cycle */
 }
